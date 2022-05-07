@@ -1,0 +1,72 @@
+
+#top-box {
+    width: 99%;
+    height: 23vh;
+    background: rgb(255, 255, 255);
+    position: relative;
+    border: .70vh solid black;
+  }
+
+  #top-box #purp {
+    position: absolute;
+    width: 5%;
+    height: 70%;
+    background: blueviolet;
+    left: 1%;
+    bottom: 6%;
+  }
+  #top-box #greeny {
+    position: absolute;
+    width: 38%;
+    height: 88%;
+    background: green;
+    left: 12%;
+    bottom: 6%;
+  }
+  #top-box #lblue {
+    position: absolute;
+    height: 20.5vh;
+    width: 20.5vh;
+    background-color: skyblue;
+    border-radius: 50%;
+    left: 56%;
+    bottom: 6%;
+  }
+  #middle-box {
+    width: 99%;
+    height: 31vh;
+    top: 3vh;
+    background: rgb(255, 255, 255);
+    position: relative;
+    border: .60vh dotted black;
+  }
+  #middle-box #yeller {
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    background: rgb(255, 244, 185);
+    left: 5%;
+    top: 15%;
+    filter: drop-shadow(1.4vh 1.4vh .3vh rgb(59, 59, 59));
+  }
+#bottom {
+    width: 50%;
+    height: 33.2vh;
+    top: 6vh;
+    left: 25%;
+    background: rgb(255, 255, 255);
+    position: relative;
+    margin-bottom: 10vh;
+    border: .20vh solid rgb(223, 223, 223);
+    filter: drop-shadow(.5vh .5vh .25vh rgb(155, 155, 155));
+}
+
+#bottom #hello-friends {
+    text-align: center;
+    line-height: 1vh;
+    letter-spacing: .75vh;
+    font-size: 3.25vh;
+    font-weight: bold;
+    color: rgb(37, 53, 126);
+    margin-top: 14.5vh;
+}
